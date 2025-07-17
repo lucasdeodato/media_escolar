@@ -34,7 +34,14 @@ const editTable = ({ target }) => {
             target.innerHTML = 'Salvar <i class="fas fa-floppy-disk"></i>';
             editTableNote(target.parentNode.parentNode);
         } else {
-            saveNotes();
+            if (search.value.trim() === "") {
+                saveNotes();
+            } else {
+                search.value = "";
+                tablesList.innerHTML = "";
+                searchFunction(search.value.toLowerCase());
+                saveNotes();
+            }
         }
     }
 };
@@ -70,6 +77,7 @@ const saveNotes = () => {
     document
         .querySelectorAll(".edit")
         .forEach((note) => (note.contentEditable = false));
+
     let tablesListHTML = document.querySelector("#tables");
     localStorage.setItem("materias", tablesListHTML.innerHTML);
 };
