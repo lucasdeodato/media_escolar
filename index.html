@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Média Escolar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <h1>Olá, Seja bem vindo</h1>
+  <p>Aqui teremos as tabelas de média escolar, insira as notas para obter sua média</p>
+  <div class="search">
+    <input type="text" id="search-table" placeholder="Pesquise pela matéria que deseja">
+  </div>
+  <main id="tables">
+    <section class="material">
+      <header>
+        <h2>Matemática</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th contenteditable="true" type="number">B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Português</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Biologia </h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Química</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Fisica </h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Geografia</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>História</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Sociologia</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+        <tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Filosofia</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Artes</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Ingles</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+          </tbody>
+        </table>
+    </section>
+    <section class="material">
+      <header>
+        <h2>Espanhol</h2> <button class="edit-btn">Editar <i class="fas fa-pen"></i></button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>B°</th>
+            <th>1° Nota</th>
+            <th>2° Nota</th>
+            <th>3° Nota</th>
+            <th>Média</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr">
+            <td class="bim">1°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">2°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">3°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="tr">
+            <td class="bim">4°</td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="edit"> </td>
+            <td class="note">00,00</td>
+          </tr>
+          <tr class="end">
+            <td colspan="4">Nota Final:</td>
+            <td class="end-note">00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  </div>
+</body>
+
+</html>
